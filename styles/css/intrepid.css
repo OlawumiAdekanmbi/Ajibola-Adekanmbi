@@ -1,0 +1,81 @@
+.main-container{
+    margin-top: 30px;
+    margin-left: 12%;
+    margin-right: 80px;
+    display: flex;
+}
+.Intrepid-container{
+    width: 35%;
+    height: 100%;
+    margin-bottom: 60px;
+}
+.Intrepid{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.Intrepid-details{
+    font-size: 16px;
+
+}
+.Intrepid-title{
+    font-size: 40px;
+}
+.Intrepid-d{
+    margin-left: 100px;
+}
+.previous{
+    position: fixed; 
+    top: 50%; 
+    left: 0;
+}
+.next{
+    position: fixed; 
+    top: 50%; 
+    right: 0;
+}
+@media screen and (max-width:850px) and (min-width:100px){
+    .main-container{
+        flex-direction: column;
+        margin-left: 15px;
+        margin-right: 15px;
+        justify-content: center !important;
+        display: block;
+        margin-top: 40px;
+        overflow-x: hidden;
+    } 
+    .Intrepid{
+        width: 100%;
+        height: 80%;
+        
+    } 
+    .previous{
+        position: fixed; 
+        top: 50%; 
+        left: 0;
+    }
+    .Intrepid-title{
+        font-size: 30px;
+    }
+    body{
+        width: 100%;
+    }
+    .next{
+        position: fixed; 
+        top: 50%; 
+        right: 0;
+    }
+    .Intrepid-container{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 0;
+    }
+.Intrepid-d{
+    margin-left: 3%;
+    top: 0;
+}
+.Intrepid-details{
+    font-size: 12px;
+    
+}
+}
